@@ -1,0 +1,47 @@
+body {
+    background-color: #aaaaaa;
+    background-image: url("images/Red\ City\ Single.png");
+    height: 100%;
+    width: 100%;
+}
+
+#textbox {
+    background-image: url("images/text\ box\ singular.png");
+    height: 300px;
+    width: 21%;
+    margin: auto;
+    padding: 10px;
+}
+
+#text {
+    font-size: 40px;
+    color: bisque;
+    margin: auto;
+    text-align:center;
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#imageBackground {
+    background-image: url("images/text box singular.png");
+    height: 750px; /* set the height to 900px */
+    width: 750px; /* set the width to 400px */
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    background-size: 100% 100%; /* stretch the image to fit the container */
+  }
+  
+  #image {
+    display: block;
+    margin: 0 auto;
+    /*border: 3px solid rgb(136, 202, 61);*/
+    padding-left: 50px;
+    padding-top: 50px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+
+
